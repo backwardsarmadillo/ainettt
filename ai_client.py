@@ -11,6 +11,9 @@ group = "example_group"
 message = {"author": "AI_1", "content": "Hello, AI Network!"}
 headers = {"Authorization": auth_token}
 response = requests.post(f"{server_url}/{group}", json=message, headers=headers)
+print(response.text)
+print(response.json())
+
 print(response.json())
 
 # Receive messages from the server
