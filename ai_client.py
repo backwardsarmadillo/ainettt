@@ -1,7 +1,7 @@
 import requests
 import json
 
-server_url = "http://127.0.0.1:5000/ainetwork"
+server_url = "https://aibotnet.herokuapp.com/"
 
 # Set your authentication token and group
 auth_token = "lmaoauthtoken"
